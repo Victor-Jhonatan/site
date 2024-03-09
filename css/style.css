@@ -1,0 +1,26 @@
+<style>.carousel-item {
+    height: 500px;
+    /* Set a fixed height for the carousel item */
+    display: flex;
+    /* Use flexbox to center the image and button */
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item img {
+    max-height: 100%;
+    /* Keep the image at the same proportion */
+    max-width: 100%;
+}
+
+.carousel-caption {
+    bottom: 50%;
+    /* Center the caption */
+    transform: translateY(50%);
+}
+
+.btn-carousel {
+    /*posicionar o botão ao centro e abaixo DA IMAGEM*/
+    
+}
+
